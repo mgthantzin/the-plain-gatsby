@@ -15,7 +15,7 @@ const PostTemplate = ({ data, pageContext }) => {
         <div className="center">
           <h1 className="title">{frontmatter.title}</h1>
           <span className="code">
-            <small>{frontmatter.date.toString('dd-MMM-yyyy')}</small>
+            <small>{frontmatter.date}</small>
           </span>
         </div>
         <div className="divider" />
