@@ -21,7 +21,7 @@ const PostTemplate = ({ data, pageContext }) => {
         <div className="divider" />
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </article>
-      <div className="page-navigation code">
+      <div className="page-navigation">
         {prev && (
           <Link
             className="prev"
@@ -31,12 +31,12 @@ const PostTemplate = ({ data, pageContext }) => {
             &lt;&lt;
           </Link>
         )}
-        <span> &middot; </span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <Link to="/" className="home" className="home" title="Back Home">
           {" "}
           Home{" "}
         </Link>
-        <span> &middot; </span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         {next && (
           <Link
             className="next"

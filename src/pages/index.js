@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
     posts.map(post => (
       <li key={post.node.id}>
         <div className="post-date code">
-          <small>{post.node.frontmatter.date}</small>
+          <small>{post.node.frontmatter.date.substring(0, 6)}</small>
         </div>
         <div className="title">
           <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
 
   const postsListContainer = groupBy(posts, getDateYear)
     .map(({ year, posts }, i) => (
-      <div key={i}>
+      <div key={i} className="mb-50">
         <h4 className="code">{year}</h4>
         {postsList(posts)}
       </div>
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD MMMM YYYY")
+            date(formatString: "MMM DD YYYY")
             title
           }
         }
