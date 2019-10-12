@@ -118,10 +118,10 @@ blockquote {
   text-align: center;
   animation-duration: 0.7s;
   animation-fill-mode: both;
-  animation-name: bounce;
+  /*animation-name: bounce;*/
   -webkit-animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-name: bounce;
+  /*-webkit-animation-name: bounce;*/
   a {
     background: #ddd url(".././images/logo_wrapper.png");
     color: #000;
@@ -401,7 +401,7 @@ section {
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;
           &:hover {
-            border-color: #000;
+            /*border-color: #000;*/
           }
         }
       }
