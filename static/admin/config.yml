@@ -6,8 +6,8 @@ media_folder: public
 public_folder: public
 
 collections:
-  - name: blog
-    label: Blog
+  - name: posts
+    label: Posts
     folder: posts
     create: true
     fields:
