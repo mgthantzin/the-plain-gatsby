@@ -2,8 +2,8 @@ backend:
   name: github
   repo: mgthantzin/the-plain-gatsby
 
-media_folder: static/assets
-public_folder: assets
+media_folder: public
+public_folder: public
 
 collections:
   - name: blog
