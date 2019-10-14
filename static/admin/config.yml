@@ -1,5 +1,6 @@
 backend:
-  name: the-plain-gatsby
+  name: github
+  repo: mgthantzin/the-plain-gatsby
 
 media_folder: static/assets
 public_folder: assets
