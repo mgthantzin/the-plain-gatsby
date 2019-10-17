@@ -3,7 +3,7 @@ module.exports = {
     title: `Thant Zin Oo`,
     description: `Drifting across the Internet`,
     author: `@mgthantzin`,
-    avatar: `https://res.cloudinary.com/thantzinoo/image/upload/c_scale,w_80/v1571263770/gatsby/test.jpg`,
+    avatar: `https://drive.google.com/uc?id=1Irz4GqeDw48zVc92NxksM4iQClsmhNZR`,
     siteUrl: `https://thantzinoo.net`,
   },
   plugins: [
